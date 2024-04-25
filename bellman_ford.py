@@ -1,4 +1,4 @@
-# Bellman-Ford: algoritmo de caminhos mínimos
+# Bellman-Ford: algoritmo de caminhos mínimos para grafos com pesos negativos e ciclos
 
 def bellman_ford(G, s):
     # Inicialização das estruturas de dados
@@ -38,13 +38,6 @@ print("Ciclo de peso negativo encontrado:", not resultado)
 print("Estimativa de caminho mínimo:", D)
 print("Vértice anterior:", A)
 
-# Exemplo de uso:
-grafo = {
-    's': {'a': 4, 'b': 3},
-    'a': {'c': 2},
-    'b': {'a': 1, 'c': 5},
-    'c': {'t': 3},
-    't': {}
-}
-origem = 's'
-resultado, D, A = bellman_ford(grafo, origem)
+
+
+

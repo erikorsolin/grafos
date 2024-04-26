@@ -63,11 +63,6 @@ class Grafo:
         self.pesos[(v, u)] = peso  # Garantindo a não-direcionalidade
 
 
-caminho = 'T1/grafo_entrada.txt'
-grafo = Grafo()
-grafo.ler(caminho)
-print(grafo.vertices)
-print(grafo.arestas)
-print(grafo.pesos)
-print(grafo.qtdVertices())
-print(grafo.qtdArestas())
+
+
+

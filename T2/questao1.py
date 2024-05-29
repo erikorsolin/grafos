@@ -1,3 +1,6 @@
+''' 1) [Componentes Fortemente Conexas] (3,0pts) Crie um programa que receba um grafo dirigido e não-ponderado
+       como argumento. Ao final, imprima na tela as componentes fortemente conexas desse grafo.'''
+
 from grafo import Grafo
 import sys
 
